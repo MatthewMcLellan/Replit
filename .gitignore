@@ -1,0 +1,181 @@
+# ===========================================
+# A&M AI - Comprehensive .gitignore
+# ===========================================
+
+# -------------------------------------------
+# Main Application (excluded for protection)
+# -------------------------------------------
+app.py
+
+# -------------------------------------------
+# ML Models - All formats
+# -------------------------------------------
+models/
+*.keras
+*.h5
+*.tflite
+*.pb
+*.onnx
+*.pt
+*.pth
+*.bin
+*.safetensors
+saved_model/
+
+# -------------------------------------------
+# Training Data & Images
+# -------------------------------------------
+training_data/
+training_images/
+ar_training_data/
+
+# -------------------------------------------
+# Uploaded Files
+# -------------------------------------------
+uploads/
+output/
+
+# -------------------------------------------
+# Database Files
+# -------------------------------------------
+*.sql
+*.sql.gz
+*.db
+*.sqlite
+*.sqlite3
+database_backup*
+database_export*
+
+# -------------------------------------------
+# Python
+# -------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pythonlibs/
+
+# -------------------------------------------
+# Virtual Environments
+# -------------------------------------------
+venv/
+ENV/
+env/
+.venv/
+.virtualenv/
+
+# -------------------------------------------
+# IDE & Editors
+# -------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# -------------------------------------------
+# OS Generated
+# -------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# -------------------------------------------
+# Logs
+# -------------------------------------------
+*.log
+logs/
+/tmp/
+log/
+
+# -------------------------------------------
+# Environment Variables
+# -------------------------------------------
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# -------------------------------------------
+# Temporary Files
+# -------------------------------------------
+*.tmp
+*.temp
+temp/
+tmp/
+*.bak
+*.backup
+
+# -------------------------------------------
+# Cache
+# -------------------------------------------
+.cache/
+*.cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# -------------------------------------------
+# Package Managers
+# -------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.yarn/
+
+# -------------------------------------------
+# Replit Specific
+# -------------------------------------------
+.upm/
+.local/
+.config/
+uv.lock
+
+# -------------------------------------------
+# Export & Backup Files
+# -------------------------------------------
+export/
+*.tar.gz
+*.zip
+export_essential.py
+
+# -------------------------------------------
+# Documentation Assets
+# -------------------------------------------
+attached_assets/
+
+# -------------------------------------------
+# Miscellaneous
+# -------------------------------------------
+other/
+website/
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
